@@ -1,30 +1,23 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Layout from "./components/Layout";
+import { useState } from 'react'
+import HomePage from "./routes/Home";
+import GamePage from "./routes/Game";
 
 const App = () => {
-  return (
-      <>
-        <Header title="pokemon" descr="game"
-        />
-        <Layout
-            id="1"
-            title="pokemonLayout1"
-            descr="pokemon1"
-        />
-        <Layout
-            id="2"
-            title="pokemonLayout2"
-            descr="pokemon2"
-            hideBackground
-        />
-        <Layout
-            id="3"
-            title="pokemonLayout3"
-            descr="pokemon3"/>
-        <Footer />
-      </>
-  )
+    const [page, setPage] = useState('app');
+
+    const handleChangePage = (page) => {
+        console.log('###: <Main/>');
+        setPage(page)
+    }
+
+    switch (page) {
+        case "app":
+            return <HomePage onChangePage={handleChangePage} />
+        case "game":
+            return <GamePage />
+        default :
+            return <HomePage />
+    }
 };
 
 export default App;
