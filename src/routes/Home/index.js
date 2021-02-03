@@ -6,6 +6,7 @@ import PokemonCard from "../../components/PokemonCard";
 import BgImg from '../../assets/bg3.jpg'
 
 import './style.module.css'
+import MenuHeader from "../../components/MenuHeader";
 
 const POKEMONS = [
     {
@@ -144,11 +145,11 @@ const POKEMONS = [
 
 const HomePage = ({onChangePage}) => {
     const handleClickButton = (page) => {
-        console.log('###: <HomePage/>');
         onChangePage && onChangePage(page)
     }
     return (
         <>
+            <MenuHeader/>
             <Header
                 title="pokemon"
                 descr="game"

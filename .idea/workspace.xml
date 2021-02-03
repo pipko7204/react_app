@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148d9cec-64d5-44b8-9eeb-859f200ea923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/Game/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Game/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Home/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuHeader/Menu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuHeader/Menu/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuHeader/NavBar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuHeader/NavBar/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuHeader/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PokemonCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Game/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Game/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1nbYuACn16gKW1KQgIOLQBrFNbP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,7 +91,8 @@
       <workItem from="1612088886353" duration="9275000" />
       <workItem from="1612098220886" duration="6506000" />
       <workItem from="1612280769526" duration="1419000" />
-      <workItem from="1612283519056" duration="4560000" />
+      <workItem from="1612283519056" duration="4899000" />
+      <workItem from="1612363663641" duration="5517000" />
     </task>
     <servers />
   </component>
