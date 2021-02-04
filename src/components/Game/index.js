@@ -1,4 +1,6 @@
 import React from 'react';
+import POKEMONS from "../../assets/POKEMONS";
+import PokemonCard from "../PokemonCard";
 
 const Game = ({onClickButton}) => {
     const handleClick = () => {
@@ -10,6 +12,11 @@ const Game = ({onClickButton}) => {
             <button onClick={handleClick}>
                 Back
             </button>
+            <div>
+                {
+                    POKEMONS.map((item) => <PokemonCard key={item.id} {...item}/>)
+                }
+            </div>
         </>
     );
 };

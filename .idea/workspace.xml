@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148d9cec-64d5-44b8-9eeb-859f200ea923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/POKEMONS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Game/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MenuHeader/Menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuHeader/Menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuHeader/Menu/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuHeader/Menu/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuHeader/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuHeader/NavBar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MenuHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuHeader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Game/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Game/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomePage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomePage/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HomePage/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +91,7 @@
       <workItem from="1612280769526" duration="1419000" />
       <workItem from="1612283519056" duration="4899000" />
       <workItem from="1612363663641" duration="5517000" />
-      <workItem from="1612441893969" duration="1925000" />
+      <workItem from="1612441893969" duration="7761000" />
     </task>
     <servers />
   </component>
