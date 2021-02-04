@@ -1,19 +1,25 @@
+import cn from 'classnames'
 import s from './style.module.css';
 
-const Nav = () => {
+const Nav = ({isOpen, bgActive = false, onClickHamburg}) => {
     return (
-        <>
-            <nav id="navbar">
+            <nav id={s.navbar} className={cn({
+                [s.bgActive]: bgActive
+            })}>
                 <div className={s.navWrapper}>
                     <p className={s.brand}>
                         LOGO
                     </p>
-                    <a className={[s.menuButton] [s.active]}>
+                    <div
+                        className={cn(s.menuButton, {
+                        [s.active]: isOpen
+                    })}
+                    onClick={onClickHamburg}
+                    >
                         <span/>
-                    </a>
+                    </div>
                 </div>
             </nav>
-        </>
     );
 };
 

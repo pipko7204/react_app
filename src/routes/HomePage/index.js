@@ -149,7 +149,6 @@ const HomePage = ({onChangePage}) => {
     }
     return (
         <>
-            <MenuHeader/>
             <Header
                 title="pokemon"
                 descr="game"
