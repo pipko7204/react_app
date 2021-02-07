@@ -1,20 +1,46 @@
 import React from 'react';
-import POKEMONS from "../../assets/POKEMONS";
 import PokemonCard from "../PokemonCard";
+import {useState, useEffect} from 'react'
+import s from './style.module.css'
+import database from "../../servise/firebase";
 
-const Game = ({onClickButton}) => {
-    const handleClick = () => {
-        onClickButton && onClickButton('app')
+const Game = () => {
+    const [pokemons, setPokemons] = useState({});
+
+    useEffect(() => {
+        database.ref('pokemons').once('value', (snapshot) =>{
+            setPokemons(snapshot.val())
+        })
+    }, []);
+
+    const handleChangeActiv = (id) => {
+        setPokemons(prevState => {
+            return Array.from(prevState, (item) => {
+                if (item.id === id) {
+                    item.active = true
+                }
+                return item
+            })
+        })
     }
     return (
         <>
-            <h1>This is game Page</h1>
-            <button onClick={handleClick}>
-                Back
-            </button>
-            <div>
+            <h1>GAME PAGE</h1>
+            <div className={s.flex}>
                 {
-                    POKEMONS.map((item) => <PokemonCard key={item.id} {...item}/>)
+                    Object.entries(pokemons).map(([key, {name, img, id, type, values, active}]) => (
+                        <PokemonCard
+                        key={key}
+                        name={name}
+                        img={img}
+                        id={id}
+                        type={type}
+                        values={values}
+                        isActive={active}
+                        onClickCard={handleChangeActiv}
+                        />
+                        )
+                    )
                 }
             </div>
         </>
