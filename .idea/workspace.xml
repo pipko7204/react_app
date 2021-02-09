@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148d9cec-64d5-44b8-9eeb-859f200ea923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderBlock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderBlock/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/FireBaseContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/AboutPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/finish/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Game/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Game/style.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PokemonCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PokemonCard/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servise/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/servise/firebase.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +33,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1nbYuACn16gKW1KQgIOLQBrFNbP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,7 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
@@ -81,7 +92,16 @@
       <option name="presentableId" value="Default" />
       <updated>1611660477361</updated>
       <workItem from="1611660479639" duration="2130000" />
-      <workItem from="1611844275648" duration="15487000" />
+      <workItem from="1611844275648" duration="16047000" />
+      <workItem from="1612088886353" duration="9275000" />
+      <workItem from="1612098220886" duration="6506000" />
+      <workItem from="1612280769526" duration="1419000" />
+      <workItem from="1612283519056" duration="4899000" />
+      <workItem from="1612363663641" duration="5517000" />
+      <workItem from="1612441893969" duration="8133000" />
+      <workItem from="1612704381419" duration="6936000" />
+      <workItem from="1612899504955" duration="580000" />
+      <workItem from="1612900633266" duration="5140000" />
     </task>
     <servers />
   </component>

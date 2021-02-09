@@ -1,30 +1,53 @@
-import Header from "./components/Header";
+import {useRouteMatch, Route, Switch, Redirect} from 'react-router-dom'
+import cn from 'classnames'
+
+import HomePage from "./routes/HomePage";
+import GamePage from "./routes/GamePage/index";
+import MenuHeader from "./components/MenuHeader";
 import Footer from "./components/Footer";
-import Layout from "./components/Layout";
+
+import s from './style.module.css'
+import React from "react";
+import AboutPage from "./routes/AboutPage";
+import {FireBaseContext} from "./context/FireBaseContext";
+import Firebase from "./servise/firebase";
+
 
 const App = () => {
-  return (
-      <>
-        <Header title="pokemon" descr="game"
-        />
-        <Layout
-            id="1"
-            title="pokemonLayout1"
-            descr="pokemon1"
-        />
-        <Layout
-            id="2"
-            title="pokemonLayout2"
-            descr="pokemon2"
-            hideBackground
-        />
-        <Layout
-            id="3"
-            title="pokemonLayout3"
-            descr="pokemon3"/>
-        <Footer />
-      </>
-  )
+    const match = useRouteMatch('/')
+    return (
+            <FireBaseContext.Provider value={new Firebase()}>
+            <Switch>
+                <Route path='/404' render={() => (
+                    <h1>404 Not Found</h1>
+                )} />
+                <Route>
+                    <>
+                        <MenuHeader bgActiv={!match.isExact}/>
+                            <div className={cn(s.wrap, {
+                                [s.isHomePage]: match.isExact
+                            })}>
+                                <Switch>
+                                    <Route path='/' exact component={HomePage}/>
+                                    <Route path='/home' component={HomePage}/>
+                                    <Route path='/game' component={GamePage}/>
+                                    <Route path='/about' component={AboutPage}/>
+                                    <Route path='/contact' render={() => (
+                                        <h1>Contact Page</h1>
+                                    )} />
+                                    <Route render={() => (
+                                        <Redirect to='/404'/>
+                                    )} />
+                                </Switch>
+                            </div>
+                        <Footer/>
+                    </>
+                </Route>
+
+            </Switch>
+            </FireBaseContext.Provider>
+    )
+
 };
 
 export default App;
