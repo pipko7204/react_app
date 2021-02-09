@@ -2,16 +2,21 @@ import {useRouteMatch, Route, Switch, Redirect} from 'react-router-dom'
 import cn from 'classnames'
 
 import HomePage from "./routes/HomePage";
-import GamePage from "./routes/GamePage";
+import GamePage from "./routes/GamePage/index";
 import MenuHeader from "./components/MenuHeader";
 import Footer from "./components/Footer";
 
 import s from './style.module.css'
 import React from "react";
+import AboutPage from "./routes/AboutPage";
+import {FireBaseContext} from "./context/FireBaseContext";
+import Firebase from "./servise/firebase";
+
 
 const App = () => {
     const match = useRouteMatch('/')
     return (
+            <FireBaseContext.Provider value={new Firebase()}>
             <Switch>
                 <Route path='/404' render={() => (
                     <h1>404 Not Found</h1>
@@ -26,9 +31,7 @@ const App = () => {
                                     <Route path='/' exact component={HomePage}/>
                                     <Route path='/home' component={HomePage}/>
                                     <Route path='/game' component={GamePage}/>
-                                    <Route path='/about' render={() => (
-                                        <h1>This is page about</h1>
-                                    )} />
+                                    <Route path='/about' component={AboutPage}/>
                                     <Route path='/contact' render={() => (
                                         <h1>Contact Page</h1>
                                     )} />
@@ -42,6 +45,7 @@ const App = () => {
                 </Route>
 
             </Switch>
+            </FireBaseContext.Provider>
     )
 
 };
