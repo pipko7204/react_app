@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148d9cec-64d5-44b8-9eeb-859f200ea923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/context/pookemonContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/component/PlayerBoard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/component/PlayerBoard/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PokemonCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PokemonCard/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/FireBaseContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/FireBaseContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servise/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/servise/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/style.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +98,7 @@
       <workItem from="1612899504955" duration="580000" />
       <workItem from="1612900633266" duration="5140000" />
       <workItem from="1613150961388" duration="15192000" />
-      <workItem from="1613167423451" duration="6766000" />
+      <workItem from="1613167423451" duration="18566000" />
     </task>
     <servers />
   </component>
