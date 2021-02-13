@@ -1,21 +1,30 @@
 import s from './style.module.css';
 
-const Layut = (props) => {
-    const styleRoot = props.hideBackground ? { backgroundImage: 'none', backgroundColor: 'pink'} : {};
+const Layut = ({id, title, urlBg, colorBg, children}) => {
+
+
+    const sectionStyle = {};
+
+    if (urlBg) {
+        sectionStyle.backgroundImage = `url(${urlBg})`;
+    }
+
+    if (colorBg) {
+        sectionStyle.backgroundColor = colorBg
+    }
+
     return (
-    <section className={s.root} style={styleRoot} id={props.id}>
+    <section className={s.root} style={sectionStyle} id={id}>
         <div className={s.wrapper}>
             <article>
                 <div className={s.title} >
                     <h3>
-                        {props.title}
+                        {title}
                     </h3>
                     <span className={s.separator}></span>
                 </div>
-                <div className={s.desc.full}>
-                    <p>
-                        {props.descr}
-                    </p>
+                <div className={`${s.desc} ${s.full}`}>
+                    {children}
                 </div>
             </article>
         </div>
