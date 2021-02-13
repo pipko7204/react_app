@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148d9cec-64d5-44b8-9eeb-859f200ea923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/context/FireBaseContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/AboutPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/finish/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/pookemonContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Game/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Game/style.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PokemonCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PokemonCard/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonCard/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/FireBaseContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/FireBaseContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/GamePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Board/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GamePage/routes/Start/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/servise/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/servise/firebase.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +43,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -102,6 +101,8 @@
       <workItem from="1612704381419" duration="6936000" />
       <workItem from="1612899504955" duration="580000" />
       <workItem from="1612900633266" duration="5140000" />
+      <workItem from="1613150961388" duration="15192000" />
+      <workItem from="1613167423451" duration="6766000" />
     </task>
     <servers />
   </component>

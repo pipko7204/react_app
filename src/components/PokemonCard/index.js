@@ -1,17 +1,20 @@
 import s from './style.module.css'
-import { useState } from 'react'
-import cardBackSide from './assets/card-back-side.jpg'
+
 import cn from 'classnames';
 
-
-const PokemonCard = ({name, img, id, type, values, isActive, minimize, className }) => {
-
-    const handleClick = () => {
-        isActive = !isActive
+const PokemonCard = ({className, name, img, id, type, values, minimize, isActive, isSelected, onClickCard }) => {
+    const handleClickCard = () => {
+        onClickCard && onClickCard(id)
     }
+
     return (
-        <div className={s.root} onClick={handleClick}>
-            <div className={cn(className, s.pokemonCard, {[s.active]: isActive})}>
+            <div
+                className={cn(className, s.pokemonCard, {
+                    [s.active]: isActive,
+                    [s.selected] : isSelected,
+            })}
+            onClick={handleClickCard}
+            >
                 <div className={s.cardFront}>
                     <div className={cn(s.wrap, s.front)}>
                         <div className={cn(s.pokemon, s[type])}>
@@ -42,7 +45,6 @@ const PokemonCard = ({name, img, id, type, values, isActive, minimize, className
                 </div>
 
             </div>
-        </div>
     );
 }
 
